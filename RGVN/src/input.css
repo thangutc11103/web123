@@ -1,7 +1,14 @@
-@import 'fontsource-montserrat';
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: montserrat_extraBold;
+    src: url(./static/static/Montserrat-ExtraBold.ttf);
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+}
