@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800&display=swap" rel="stylesheet">
+    <script>
+       
+      </script>
 </head>
 
 <body class="bg-rose-50 text-[#333333]">
@@ -19,7 +22,7 @@
         <div class="max-w-5xl container mx-auto p-5 flex items-center justify-center md:justify-between text-xl">
             <!-- logo -->
             <div class="max-w-3xl max-h-14 md:left-0">
-                <a href=""><img class="w-48" src="./img/logo.png" alt=""></a>
+                <a href=""><img class="h-6" src="./img/logo.png" alt=""></a>
             </div>
             <div class="flex items-center gap-2">
                 <!-- header Line -->
@@ -36,28 +39,34 @@
         </div>
     </header>
 
-    <section class="relative h-[80vh] shrink-0 flex-col justify-end hidden md:flex w-screen ">
-        <video class="absolute w-full h-full object-cover -z-10" muted autoplay loop playsinline>
-            <source src="./static/RGVN.mp4" type="video/mp4">
-        </video>
-        <div>
-            <h5 class="text-base text-white font-bold">HỆ THỐNG KINH DOANH ONLINE <br>
-                THÀNH CÔNG BẬC NHẤT TẠI THÁI LAN</h5>
-            <h5 class="text-3xl font-bold text-rose-200">CHÍNH THỨC CÓ MẶT TẠI VIỆT NAM</h5>
-            <button
-                class="absolute right-0 bottom-6 w-40 h-10 border-2 font-bold text-sm border-rose-200 bg-rose-50 text-rose-400">Tìm
-                hiểu ngay</button>
+    <section class="relative h-[80vh]  flex-col  hidden md:flex ">
+        <div class="absolute w-full h-full -z-10  " >
+            <iframe class="w-screen h-full " src="https://www.youtube.com/embed/uoovkkvoQjk?autoplay=1&mute=1&loop=1&controls=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class=" bg-black h-full bg-opacity-60">
+            <div class="max-w-5xl mx-auto h-full flex items-end">
+                <div class=" flex flex-row w-full justify-between">
+                    <div>
+                        <h5 class="text-base text-white font-bold">HỆ THỐNG KINH DOANH ONLINE <br>
+                            THÀNH CÔNG BẬC NHẤT TẠI THÁI LAN</h5>
+                        <h5 class="text-3xl font-bold text-rose-200">CHÍNH THỨC CÓ MẶT TẠI VIỆT NAM</h5>
+                    </div>
+                    <button
+                        class=" w-40 h-10 border-2 font-bold text-sm border-rose-200 bg-rose-50 text-rose-400">Tìm
+                        hiểu ngay</button>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="h-72 md:hidden container ">
-        <div class="bg-no-repeat h-full  bg-cover" style="background-image: url(./img/bg-section1.jpg)">
+    <section class="h-72 md:hidden  ">
+        <div class="bg-cover h-full" style="background-image: url(./img/bg-section1.jpg)">
             <div class="bg-black bg-opacity-40 h-full flex flex-col justify-between items-center text-center font-bold">
                 <div>
                     <div class="m-4 text-white text-sm">
                         <h5>HỆ THỐNG KINH DOANH ONLINE</h5>
                         <h5>THÀNH CÔNG BẬC NHẤT TẠI THÁI LAN</h5>
                     </div>
-                    <div class="text-rose-400 text-xl">
+                    <div class="text-rose-300 text-xl">
                         <h5>CHÍNH THỨC CÓ MẶT TẠI VIỆT NAM</h5>
                     </div>
                 </div>
@@ -191,22 +200,22 @@
         </div>
     </section>
     <section>
-        <div class="max-w-5xl mx-auto">
+        <div class="max-w-5xl mx-auto h-auto">
             <div class="flex gap-1">
                 <div class="flex-1">
-                    <img class="" src="./img/hang-ceo-1.jpg" alt="">
+                    <img class="" src="./img/hang-cxo-1.png" alt="">
                 </div>
-                <div class="flex-1 hidden md:block h-96">
-                    <img class="" src="./img/hang-ceo-3.jpg" alt="">
+                <div class="flex-1 hidden md:block bg-black ">
+                    <img class="" src="./img/hang-cxo-3.jpg" alt="">
                 </div>
                 <div class="flex-1">
-                    <img class="" src="./img/hang-ceo-2.jpg" alt="">
+                    <img class="" src="./img/hang-cxo-2.png" alt="">
                 </div>
             </div>
 
-            <div class="flex flex-row-reverse">
-                <div class="p-3 left-0 flex flex-col md:flex-row-reverse">
-                    <div class="text-4xl md:text-7xl text-rose-200 font-bold">
+            <div class="flex flex-row-reverse mt-2">
+                <div class="p-3 left-0 flex flex-col items-end md:flex-row-reverse">
+                    <div class="text-4xl md:text-7xl text-rose-200 font-bold ">
                         <h5>CXO THU HẰNG</h5>
                     </div>
                     <div class="text-sm font-Montserrat flex items-end md:mr-2">
@@ -215,7 +224,7 @@
                 </div>
             </div>
             <div class="md:hidden">
-                <img src="./img/hang-ceo-3.jpg" alt="">
+                <img src="./img/hang-cxo-3.jpg" alt="">
             </div>
         </div>
     </section>
@@ -254,13 +263,13 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="flex flex-col text-center">
-            <div class="text-rose-200 font-bold text-lg p-3 mt-2">
+    <section class="">
+        <div class="flex flex-col items-center text-center py-5">
+            <div class="text-rose-200 font-bold text-lg pb-2">
                 <h5 class="">MỌI NGƯỜI NÓI GÌ VỀ ROSEGOLD</h5>
             </div>
-            <div>
-                <!-- video -->
+            <div class="w-96 h-56 border-8 rounded-xl border-rose-300 bg-rose-300">
+                <iframe class="rounded-md" width="368" height="210" src="https://www.youtube.com/embed/LdVZUATEOME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -274,6 +283,7 @@
             </div>
         </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
 
 </html>
