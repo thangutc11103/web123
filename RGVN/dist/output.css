@@ -656,6 +656,10 @@ video {
   height: 2.5rem;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
 .h-56 {
   height: 14rem;
 }
@@ -680,22 +684,6 @@ video {
   height: 100%;
 }
 
-.h-\[300\] {
-  height: 300;
-}
-
-.h-\[300px\] {
-  height: 300px;
-}
-
-.h-\[458px\] {
-  height: 458px;
-}
-
-.h-\[\] {
-  height: ;
-}
-
 .max-h-14 {
   max-height: 3.5rem;
 }
@@ -718,18 +706,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
-}
-
-.w-\[291px\] {
-  width: 291px;
-}
-
-.w-\[\] {
-  width: ;
 }
 
 .max-w-3xl {
@@ -800,6 +776,19 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-s {
+  border-start-start-radius: 0.25rem;
+  border-end-start-radius: 0.25rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -812,6 +801,10 @@ video {
   border-width: 8px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-rose-200 {
   --tw-border-opacity: 1;
   border-color: rgb(254 205 211 / var(--tw-border-opacity));
@@ -820,6 +813,11 @@ video {
 .border-rose-300 {
   --tw-border-opacity: 1;
   border-color: rgb(253 164 175 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -872,19 +870,9 @@ video {
   background-repeat: no-repeat;
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
-}
-
-.object-none {
-  -o-object-fit: none;
-     object-fit: none;
+.object-bottom {
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 
 .p-3 {
@@ -1023,6 +1011,30 @@ button {
   font-family: 'Montserrat', sans-serif;
 }
 
+@media (min-aspect-ratio: 16/9) {
+  .backgroud-clip{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .backgroud-clip{
+    height: 100%;
+    width: auto;
+  }
+}
+
+.placeholder\:text-white::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-white::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:left-0 {
     left: 0px;
@@ -1051,10 +1063,6 @@ button {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:h-\[481px\] {
-    height: 481px;
   }
 
   .md\:w-2\/5 {
@@ -1108,5 +1116,4 @@ button {
     line-height: 1;
   }
 }
-
   
